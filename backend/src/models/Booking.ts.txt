@@ -1,0 +1,9 @@
+export interface Booking {
+  _id?: string;
+  roomId: string;
+  userId: string;
+  startTime: Date;
+  endTime: Date;
+  status: "active" | "cancelled";
+  createdAt: Date;
+}
